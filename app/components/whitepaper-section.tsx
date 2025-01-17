@@ -16,7 +16,7 @@ export function WhitepaperSection() {
           Discover how our Weather AI Agent leverages cutting-edge AI technologies and high-quality meteorological data to revolutionize weather forecasting and climate insights.
         </p>
         <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700">
-          <Link href="https://pdflink.to/irisweatherai/" target="_blank">
+          <Link href="https://pdflink.to/weatherpp" target="_blank">
             View Whitepaper
           </Link>
         </Button>
