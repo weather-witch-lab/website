@@ -4,7 +4,7 @@ import Link from 'next/link'
 export function HeaderLogo() {
   return (
     <Link className="flex items-center justify-center" href="#">
-      <span className="text-xl font-bold text-white">Iris</span>
+      <span className="text-xl font-bold text-white">World Weather AI</span>
       <Link href="https://github.com/weather-witch-lab" target="_blank" className="mx-2 text-sm text-blue-300 hover:text-blue-400">
         by Weather Witch Lab
       </Link>

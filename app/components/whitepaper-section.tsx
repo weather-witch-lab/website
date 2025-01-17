@@ -6,7 +6,7 @@ export function WhitepaperSection() {
   return (
     <Card className="bg-blue-900/30 backdrop-blur-sm">
       <CardHeader>
-        <CardTitle className="text-2xl font-bold text-white">Iris AI Whitepaper</CardTitle>
+        <CardTitle className="text-2xl font-bold text-white">World Weather AI Whitepaper</CardTitle>
         <CardDescription className="text-blue-200">
           Next-Generation Weather AI Agent: Harnessing Google DeepMind and ECMWF for Precision Forecasting and Climate Insights
         </CardDescription>

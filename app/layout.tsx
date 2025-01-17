@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Iris, Your AI Weather Agent',
+  title: 'World Weather AI, Your AI Weather Agent',
   description: 'An intelligent AI agent powered by Google DeepMind and ECMWF technologies, delivering precise weather forecasting and climate insights.',
   icons: {
     icon: [

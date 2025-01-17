@@ -17,7 +17,7 @@ graph TB
     A["Global Weather Data Sources"]
     B["Social Media Trends"]
     C["ECMWF Data"]
-    D["Iris AI Core"]
+    D["World Weather AI Core"]
     E["Analysis Engine"]
     F["Message Generation"]
     G["User Notifications"]
@@ -127,7 +127,7 @@ export default function LandingPage() {
         <div className="absolute inset-0 flex items-center justify-center px-4">
           <div className="text-center space-y-8 p-6 bg-black/30 backdrop-blur-sm rounded-xl max-w-4xl">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
-              Meet Iris, Your AI Weather Agent
+              Meet World Weather AI, Your AI Weather Agent
             </h1>
             <p className="text-lg sm:text-xl text-blue-200 max-w-2xl mx-auto">
               An intelligent AI agent powered by Google DeepMind and ECMWF technologies, delivering precise weather forecasting and climate insights.
@@ -135,7 +135,7 @@ export default function LandingPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 w-full sm:w-auto">
                 <Link href="https://x.com/TheweatherAI" target="_blank">
-                  Follow Iris on X
+                  Follow World Weather AI on X
                 </Link>
               </Button>
               <Button 
@@ -161,21 +161,21 @@ export default function LandingPage() {
               <Sun className="h-12 w-12 text-yellow-500" />
               <h3 className="text-xl font-bold text-white">Intelligent Forecasting</h3>
               <p className="text-blue-200">
-                As an AI agent, Iris utilizes Google DeepMind technologies to deliver hyper-local, accurate weather predictions across multiple timeframes.
+                As an AI agent, World Weather AI utilizes Google DeepMind technologies to deliver hyper-local, accurate weather predictions across multiple timeframes.
               </p>
             </div>
             <div className="flex flex-col items-center space-y-4 text-center">
               <Wind className="h-12 w-12 text-blue-500" />
               <h3 className="text-xl font-bold text-white">Automated Climate Analysis</h3>
               <p className="text-blue-200">
-                Iris autonomously processes ECMWF data for in-depth climate trend analysis and long-term environmental forecasting.
+                World Weather AI autonomously processes ECMWF data for in-depth climate trend analysis and long-term environmental forecasting.
               </p>
             </div>
             <div className="flex flex-col items-center space-y-4 text-center">
               <BarChart className="h-12 w-12 text-green-500" />
               <h3 className="text-xl font-bold text-white">Supply Chain Optimization</h3>
               <p className="text-blue-200">
-                Iris helps supply chains avoid extreme weather events, optimizing routes and schedules to save millions in potential losses and improve efficiency.
+                World Weather AI helps supply chains avoid extreme weather events, optimizing routes and schedules to save millions in potential losses and improve efficiency.
               </p>
             </div>
           </div>
@@ -186,14 +186,14 @@ export default function LandingPage() {
         <div className="container max-w-6xl mx-auto px-4 md:px-6">
           <div className="grid gap-10 lg:grid-cols-2">
             <div className="space-y-4">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tighter text-white">About Iris</h2>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tighter text-white">About World Weather AI</h2>
               <p className="text-blue-200">
-                As an advanced AI agent, Iris combines cutting-edge technologies from Google DeepMind and ECMWF to revolutionize weather forecasting and climate analysis through autonomous decision-making and real-time data processing.
+                As an advanced AI agent, World Weather AI combines cutting-edge technologies from Google DeepMind and ECMWF to revolutionize weather forecasting and climate analysis through autonomous decision-making and real-time data processing.
               </p>
               <div className="space-y-4 mt-6">
-                <h3 className="text-xl font-semibold text-white">How Iris Works</h3>
+                <h3 className="text-xl font-semibold text-white">How World Weather AI Works</h3>
                 <p className="text-blue-200">
-                  Iris continuously monitors global weather patterns and social trends, performing AI-powered analysis to generate valuable insights that benefit society. Through real-time processing, Iris delivers timely weather forecasts and alerts directly to users via X and Telegram platforms.
+                  World Weather AI continuously monitors global weather patterns and social trends, performing AI-powered analysis to generate valuable insights that benefit society. Through real-time processing, World Weather AI delivers timely weather forecasts and alerts directly to users via X and Telegram platforms.
                 </p>
               </div>
             </div>
@@ -226,7 +226,7 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="mt-16">
-            <h3 className="text-xl sm:text-2xl font-bold text-white mb-6 text-center">Iris AI Framework</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-white mb-6 text-center">World Weather AI Framework</h3>
             <div className="bg-white p-4 rounded-lg shadow-lg flex justify-center overflow-x-auto">
               <Mermaid chart={mermaidDiagram} />
             </div>
@@ -245,7 +245,7 @@ export default function LandingPage() {
       <section id="roadmap" className="w-full py-16 md:py-24 bg-blue-950/80 backdrop-blur-sm">
         <div className="container max-w-6xl mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tighter text-white">Iris Evolution Roadmap</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tighter text-white">World Weather AI Evolution Roadmap</h2>
             <p className="mx-auto max-w-[600px] text-blue-200 text-sm sm:text-base md:text-lg">
               Our journey to revolutionize global weather intelligence and climate action
             </p>
@@ -263,7 +263,7 @@ export default function LandingPage() {
                 <div className="bg-blue-900/30 p-6 rounded-lg backdrop-blur-sm">
                   <h3 className="text-xl font-bold text-blue-400 mb-4">Phase 2: Expansion</h3>
                   <ul className="text-left text-blue-100 space-y-2 text-sm sm:text-base">
-                    <li>• Iris mobile app for iOS and Android</li>
+                    <li>• World Weather AI mobile app for iOS and Android</li>
                     <li>• Personalized weather insights</li>
                     <li>• Community-driven weather reporting</li>
                     <li>• Integration with smart home devices</li>
@@ -292,7 +292,7 @@ export default function LandingPage() {
             <div className="mt-12">
               <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700">
                 <Link href="https://x.com/TheweatherAI" target="_blank">
-                  Follow Iris on X for Updates
+                  Follow World Weather AI on X for Updates
                 </Link>
               </Button>
             </div>
